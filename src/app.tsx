@@ -65,8 +65,6 @@ export default function App() {
         <MetaProvider>
           <StyleRegistry styles={sheets}>
             <GlobalStyles />
-            <a href="/">Index</a>
-            <a href="/about">About</a>
             <Suspense>{props.children}</Suspense>
           </StyleRegistry>
         </MetaProvider>
